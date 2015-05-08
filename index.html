@@ -12,7 +12,7 @@ startdate: 2015-07-09
 enddate: 2015-07-10
 instructor: ["Cam Macdonell", "Vicky Varga"]
 <!--helper: (list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"])-->
-contact: Lynn Brockington lbrockington@westvanlibrary.ca
+contact: lbrockington@westvanlibrary.ca
 etherpad: # FIXME (insert the URL for your Etherpad if you're using one)
 eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 1234567890AB key for Eventbrite registration)
 ---
@@ -52,7 +52,7 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
 -->
 <p>
   <a href="{{site.swc_site}}">Software Carpentry</a>'s mission
-  is to help scientists and engineers get more research done in less
+  is to help librarians, scientists and others to get more research done in less
   time and with less pain by teaching them basic lab skills for
   scientific computing.  This hands-on workshop will cover basic
   concepts and tools, including program design, version control, data
@@ -62,9 +62,9 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
 </p>
 <p align="center">
   <em>
-    For more information on what we teach and why,
-    please see our paper
-    "<a href="http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745">Best Practices for Scientific Computing</a>".
+    For more information on how Software Carpentry works with librarians,
+    please see this blog post
+    "<a href="http://software-carpentry.org/blog/2014/08/bootcamps-for-librarians.html">Three Bootcamps for Librarians</a>".
   </em>
 </p>
 
@@ -120,7 +120,7 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
 -->
 <p>
   <strong>Contact</strong>:
-  Please mail
+  Please mail <em>Lynn Brockington</em>
   {% if page.contact %}
     <a href='mailto:{{page.contact}}'>{{page.contact}}</a>
   {% else %}
@@ -129,6 +129,10 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
   for more information.
 </p>
 
+<p>
+<strong>Your Instructors</strong>:<br>
+<b>Cam MacDonell</b><br>Cam is an assistant professor at MacEwan University in the Department of Computer Science. MacEwan University an undergraduate university that is located in downtown Edmonton, Alberta. His teaching and research relate to operating systems, software engineering, cloud computing and virtualization.<br>
+<b>Vicky Varga</b><br>Vicky is a librarian and manager at the Edmonton Public Library. She worked as a web developer at EPL for 5 years, primarily using PHP and ColdFusion. She is interested in teaching other librarians how to program, as she sees these skills as becoming increasingly important to the profession.
 <hr/>
 
 <!--
@@ -471,30 +475,18 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
       Python 3 introduced changes that will break some of the code we teach during the workshop.
     </p>
 
-    <p>
-      We will teach Python using the IPython notebook, a programming environment
-      that runs in a web browser. For this to work you will need a reasonably
-      up-to-date browser. The current versions of the Chrome, Safari and
-      Firefox browsers are all <a 
-      href='http://ipython.org/ipython-doc/2/install/install.html#browser-compatibility'>supported</a> 
-      (some older browsers, including Internet Explorer version 9 
-      and below, are not).
-    </p>
-
-  <div class="row">
+    <div class="row">
     <div class="col-md-4">
       <h4 id="python-windows">Windows</h4>
       <ul>
-        <li>
-          Download and
-          install <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a>.
-        </li>
-        <li>
-          Download the default Python 2 installer (do not follow the link to version 3).
-          Use all of the defaults for installation
-          <em>except</em> make sure to check
-          <strong>Make Anaconda the default Python</strong>.
-        </li>
+      <li>Download the Python installer <a href="https://www.python.org/ftp/python/2.7.9/python-2.7.9.msi">python-2.7.9.msi</a>
+      </li>
+      <li>
+        Download and install  <a href="http://wingware.com/downloads/wingide-101">Wing 101 version 5</a>.
+      </li>
+      <li>
+        Use all of the defaults for installation
+      </li>
       </ul>
     </div>
     <div class="col-md-4">
@@ -503,89 +495,24 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
         <li>
         Python comes installed by default on OS X.  You are good to go!
         </li>
+       <li>
+        Download and install  <a href="http://wingware.com/downloads/wingide-101">Wing 101 version 5</a>.
+      </li>
       </ul>
     </div>
     <div class="col-md-4">
       <h4 id="python-linux">Linux</h4>
-      <p>
-        We recommend the all-in-one scientific Python installer
-        <a href="http://continuum.io/downloads.html">Anaconda</a>.
-        (Installation requires using the shell and if you aren't
-        comfortable doing the installation yourself just
-        download the installer and we'll help you at the workshop.)
-      </p>
       <ol>
         <li>
-          Download the installer that matches your operating
-          system and save it in your home folder.
-          Download the default Python 2 installer (do not follow the link to version 3). 
+        Your linux distribution likely comes with Python.  Please ensure it is installed.
         </li>
         <li>
-          Open a terminal window.
-        </li>
-        <li>
-          Type <pre>bash Anaconda-</pre> and then press
-          tab. The name of the file you just downloaded should
-          appear.
-        </li>
-        <li>
-          Press enter. You will follow the text-only prompts.  When
-          there is a colon at the bottom of the screen press the down
-          arrow to move down through the text. Type <code>yes</code> and
-          press enter to approve the license. Press enter to approve the
-          default location for the files. Type <code>yes</code> and
-          press enter to prepend Anaconda to your <code>PATH</code>
-          (this makes the Anaconda distribution the default Python).
+        Download and install  <a href="http://wingware.com/downloads/wingide-101">Wing 101 version 5</a>.
         </li>
       </ol>
     </div>
   </div>
 </div> <!-- End of 'Python' section. -->
-
-<div id="r"> <!-- Start of 'R' section. -->
-  <h3>R</h3>
-
-  <p>
-    <a href="http://www.r-project.org">R</a> is a programming language
-    that is especially powerful for data exploration, visualization, and
-    statistical analysis. To interact with R, we use
-    <a href="http://www.rstudio.com/">RStudio</a>.
-  </p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="r-windows">Windows</h4>
-      <p>
-        Install R by downloading and running
-        <a href="http://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>.
-        Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="r-macosx">Mac OS X</h4>
-      <p>
-        Install R by downloading and running
-        <a href="http://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>.
-        Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="r-linux">Linux</h4>
-      <p>
-        You can download the binary files for your distribution
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>. Or
-        you can use your package manager (e.g. for Debian/Ubuntu
-        run <code>sudo apt-get install r-base</code> and for Fedora run
-        <code>sudo yum install R</code>).  Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-      </p>
-    </div>
-  </div>
-</div> <!-- End of 'R' section. -->
 
 <div id="sql"> <!-- Start of 'SQLite' section. -->
   <h3>SQLite</h3>
