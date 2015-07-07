@@ -1,6 +1,6 @@
 ---
 layout: page
-root: ../..
+root: ..
 title: Lesson Material
 ipythonnotebook: http://nbviewer.ipython.org/urls
 raw: raw.github.com/swcarpentry/bc/gh-pages
