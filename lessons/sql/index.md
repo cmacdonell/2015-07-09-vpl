@@ -1,6 +1,6 @@
 ---
 layout: lesson
-root: ../..
+root: .
 title: Using Databases and SQL - Librarians Edition
 ---
 Almost everyone has used spreadsheets,
