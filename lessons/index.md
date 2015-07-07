@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: page
 root: ../..
 title: Lesson Material
 ipythonnotebook: http://nbviewer.ipython.org/urls
