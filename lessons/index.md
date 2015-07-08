@@ -6,11 +6,6 @@ ipythonnotebook: http://nbviewer.ipython.org/urls
 raw: raw.github.com/swcarpentry/bc/gh-pages
 ---
 
-<p>
-  This directory contains one page for each Software Carpentry lesson package.
-  Each of those pages uses {% raw %}{% include %}{% endraw %}
-  to include all of the lesson material for viewing and checking.
-</p>
 
 <div>
   <h2>Software Carpentry</h2>
