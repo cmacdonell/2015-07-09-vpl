@@ -34,16 +34,15 @@ raw: raw.github.com/swcarpentry/bc/gh-pages
       To do: diagrams.
     </dd>
 
-    <dt><a href="swc-python/tutorial.html">Basic Programming Using Python</a></dt>
+    <dt><a href="python/intro.html">Basic Programming Using Python</a></dt>
     <dd>
-      An introduction to basic programming concepts using the IPython Notebook, skimage.novice, and ipythonblocks.
-      <br/>
-      To do: lots.
+      An introduction to Wing IDE and basic programming concepts
+
     </dd>
 
 
 
-    <dt><a href="swc-librarians/tutorial.html">Librarians</a></dt>
+    <dt><a href="python/circ-card/tutorial.html">Python for librarians</a></dt>
     <dd>
     Preliminary material to demonstrate uses of Python for librarians.  Three
     examples are built on basic Python concepts.
