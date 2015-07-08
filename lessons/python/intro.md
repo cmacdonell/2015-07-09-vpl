@@ -36,7 +36,7 @@ We do not immediately see a result returned to the screen as we need to explicit
     7    
 ~~~
 
-Next, let's add some text to our output on the screen to make it more readable. The term for combining two strings is concatenation, which means "to join together". Before we can concatenate my_var with text, however, we need to turn it into a string. Currently, it is an integer, which is a type of number. Variables with numerical data types cannot be concatenated with textual variables (known as strings); they must first be converted to strings using the str() command.
+Next, let's add some text to our output on the screen to make it more readable. The term for combining two strings is concatenation, which means "to join together". Before we can concatenate my_var with text, however, we need to turn it into a string. Currently, it is an integer, which is a type of number. Variables with numerical data types cannot be concatenated with textual variables (known as strings); they must first be converted to strings using the str() function.
 
 ~~~ python
 >>> my_var = str(my_var)
@@ -98,6 +98,7 @@ print str(celsius) + " degrees in Celsius is " + str(fahrenheit) + " degrees in 
 ~~~
 
 We can further improve our script by adding a textual message to our user prompt. To do so, we add the string we want to display to the user within the brackets of the input() function:
+
 
 ~~~ python
 celsius = input("Enter a temperature in Celsius: ")
