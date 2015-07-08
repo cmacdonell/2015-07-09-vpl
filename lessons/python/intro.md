@@ -4,18 +4,10 @@ root: ../..
 title: Introduction to python
 
 ---
-
-
-
-<div>
-  <h2>Software Carpentry</h2>
-
-  <p>
-    This material is original to Software Carpentry.
-  </p>
+ 
 
 ## Using the command line
-
+stuff here
 
 ## Writing a script
 
@@ -55,4 +47,4 @@ celsius = input("Enter a temperature in Celsius: ")
 fahrenheit = (celsius * 2) + 30
 print str(celsius) + " degrees in Celsius is " + str(fahrenheit) + " degrees in Fahrenheit"
 ~~~
-</div>
+
