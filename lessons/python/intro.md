@@ -203,7 +203,18 @@ Now that we're familiar with lists, let's return to the question of how we can p
 celsius = [15, 18, 12, 22, 34]
 ~~~
 
-To process each list member, we need to use a structure called a for loop. As with conditional statements, we start our for loop with the keyword "for", then we define what we want to loop over, followed by a colon. The code we want to execute for each iteration of the loop then follows, indented.
+To process each list member, we need to use a structure called a for loop. As with conditional statements, we start our for loop with the keyword "for", then we define what we want to loop over, followed by a colon. The code we want to execute for each iteration of the loop then follows, indented. We will start by printing out each list member individually.
+
+~~~python
+celsius = [15, 18, 12, 22, 34]
+
+for temperature in celsius:
+    print temperature
+~~~
+
+In this example, the first line of our loop states that we want to loop over the list celsius. The variable "temperature" that appears in this line is a temporary variable that refers to the individual data element of the list, and we are free to call this anything we want. In human language, this line is saying "for each list item (hereafter referred to as temperature) in the list celsius, do the following:". The following line then prints out each list item as it is evaluated.
+
+To complete the temperature conversion, we need to add our conversion formula within the loop. To do so, we add an indented line with the calculation below our for statement. The variable that we are converting is temperature, as this is the variable that refers to each list item in term; celsius refers to the entire list.
 
 ~~~python
 celsius = [15, 18, 12, 22, 34]
@@ -212,8 +223,6 @@ for temperature in celsius:
     fahrenheit = temperature * 2 + 30
     print fahrenheit
 ~~~
-
-In this example, the first line of our loop states that we want to loop over the list celsius. The variable "temperature" that appears in this line is a temporary variable that refers to the individual data element of the list, and we are free to call this anything we want. In human language, this line is saying "for each list item (hereafter referred to as temperature) in the list celsius, do the following:". The following line then performs the temperature conversion on each temperature within the list and the third line prints it out. 
 
 Note that each list item is processed sequentially, not in parallel. In other words, python looks at index 0 in celsius (15), converts it to Fahrenheit based on the calculation we defined, and then prints out the result. It then looks at index 1 (18) and does the same thing and so on until the end of the list. It does NOT convert all values at once and then print them out.
 
