@@ -31,30 +31,27 @@ raw: raw.github.com/swcarpentry/bc/gh-pages
       putting commonly-used commands in shell scripts,
       and finding things.
       <br/>
-      To do: diagrams.
+ 
     </dd>
 
     <dt><a href="python/intro.html">Basic Programming Using Python</a></dt>
     <dd>
-      An introduction to Wing IDE and basic programming concepts
-
-    </dd>
-
-
-
-    <dt><a href="python/circ-card/tutorial.html">Python for librarians</a></dt>
-    <dd>
-    Preliminary material to demonstrate uses of Python for librarians.  Three
+      An introduction to Wing IDE, python and basic programming conceptsThree
     examples are built on basic Python concepts.
     <ol>
-      <li>Cleaning a Circulation Card File <a href="python/circ-card.html">Example</a></li>
-      <li>Processing Report Data (from Excel or Director's Station) <a href="python/report-data.html">Example</a></li>
-	  <li>Merging Data from 2 Files <a href="python/merge-catalogue.html">Example</a></li>
+      <li><a href="python/intro.html">Introduction to python</a></li>
+	  <li><a href="python/circ-card.html">Cleaning a Circulation Card File</a></li>
+	  <li><a href="python/merge-catalogue.html">Merging Data from 2 Files</a></li>
     </ol>
     <br/>
     </dd>
 
-
+    <dt><a href="sql/index.html">SQL for Librarians</a></dt>
+    <dd>
+      Learn to manipulate data contained within a database. Includes lessons on selecting data, removing duplicates, calculating new values, and joining data from different database tables.
+      <br/>
+ 
+    </dd>
 
   </dl>
 
