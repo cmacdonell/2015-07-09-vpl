@@ -58,9 +58,11 @@ We can combine the last two steps into a single line:
 ~~~
 
 ## Writing a script
-Now, let's write our first script
+Next, we're going to write a script. Scripts are files that can be saved for reuse. This way, we don't need to type out our calculations and commands every time we want to perform a task. We can write it once and reuse it whenever we need.
+
+Python scripts are saved with the .py extension.
   
-## Writing a temperature calculating script
+### Writing a temperature conversion script
 Now, let's write a script that converts a temperature from Celsius to Fahrenheit. First, we will create a variable that contains our temperature in Celsius and we will display it to the screen using print.
 
 ~~~ python
@@ -75,23 +77,27 @@ celsius = 15
 fahrenheit = (celsius * 2) + 30
 print fahrenheit
 ~~~
-When we run this script, the number 60 is returned. Now, let's update our script so that instead of just returning this number, the phrase "15 degrees Celsius is 60 degrees Fahrenheit" using our variables.
-
-To do so, we need to do something called concatenation. Concatenation means "to join together". In python, we can join (concatenate) variables and text. Let's start with
+When we run this script, the number 60 is returned. Now, let's update our script so that instead of just returning this number, the phrase "15 degrees Celsius is 60 degrees Fahrenheit" using our variables. Remember, we need to convert our numeric values into strings before we concatenate them with the text (string) we want to add to our output.
 
 ~~~ python
 celsius = 15
 
 fahrenheit = (celsius * 2) + 30
-print celsius + "degrees in Celsius is" + fahrenheit + "degrees in Fahrenheit"
-
-~~~
-~~~ python
-celsius = 30
-
-fahrenheit = (celsius * 2) + 30
 print str(celsius)+' degrees in Celsius is ' + str(fahrenheit) + ' degrees in Fahrenheit'
 ~~~
+
+Currently, our variable celsius isn't actually very variable - it doesn't change! It has a "hard coded" value of 15. We can increase the usefulness of our program if we can make this variable more dynamic. For example, we could let a user input any number and we can perform the Celsius to Fahrenheit conversion on it.
+
+To do so, we need to edit our celsius variable. Rather than setting it to the number 5, we will tell python that we want it to be a inputted number by using the input() function.
+
+~~~ python
+celsius = input()
+
+fahrenheit = (celsius * 2) + 30
+print str(celsius) + " degrees in Celsius is " + str(fahrenheit) + " degrees in Fahrenheit"
+~~~
+
+We can further improve our script by adding a textual message to our user prompt. To do so, we add the string we want to display to the user within the brackets of the input() function:
 
 ~~~ python
 celsius = input("Enter a temperature in Celsius: ")
@@ -99,4 +105,3 @@ celsius = input("Enter a temperature in Celsius: ")
 fahrenheit = (celsius * 2) + 30
 print str(celsius) + " degrees in Celsius is " + str(fahrenheit) + " degrees in Fahrenheit"
 ~~~
-
