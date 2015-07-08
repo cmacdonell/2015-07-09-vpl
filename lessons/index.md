@@ -31,10 +31,9 @@ raw: raw.github.com/swcarpentry/bc/gh-pages
 
     <dt> Programming Using Python</dt>
     <dd>
-      An introduction to Wing IDE, python and basic programming conceptsThree
-    examples are built on basic Python concepts.
+      An introduction to Wing IDE, python and basic programming concepts (variables, lists, conditionals, loops)
     <ol>
-      <li><a href="python/intro.html">Introduction to python</a></li>
+      <li><a href="python/intro.html">Introduction to python</a> </li>
 	  <li><a href="python/circ-card.html">Cleaning a Circulation Card File</a></li>
 	  <li><a href="python/merge-catalogue.html">Merging Data from 2 Files</a></li>
     </ol>
