@@ -1,8 +1,9 @@
 ---
 layout: page
 root: ../..
-title: Using Databases and SQL - Librarians Edition
+title: Librarians and databases
 ---
+
 Almost everyone has used spreadsheets,
 and almost everyone has eventually run up against their limitations.
 The more complicated a data set is,
