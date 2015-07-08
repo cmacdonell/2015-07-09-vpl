@@ -13,7 +13,6 @@ Traditionally, the first program one writes when learning a new language is call
 
 ~~~python
 >>> print "Hello, world"
-
 ~~~
 
 When you type this in and hit enter, the phrase Hello, world appears immediately below the line of code you typed in. You've executed your first python command!
@@ -28,17 +27,34 @@ In the above example, the variable is named my_var and it has a value of 5. This
 
 ~~~python
 >>> my_var = my_var + 2
-
 ~~~
 
 We do not immediately see a result returned to the screen as we need to explicitly tell python to display a result using print.
 
 ~~~ python
 >>> print my_var
-7
+    7    
 ~~~
 
+Next, let's add some text to our output on the screen to make it more readable. The term for combining two strings is concatenation, which means "to join together". Before we can concatenate my_var with text, however, we need to turn it into a string. Currently, it is an integer, which is a type of number. Variables with numerical data types cannot be concatenated with textual variables (known as strings); they must first be converted to strings using the str() command.
 
+~~~ python
+>>> my_var = str(my_var)
+~~~
+
+Now that we've converted our variable from an integer into a string, we can concatenate it with some text and print the result. To concatenate, you use the + sign between the two (or more) elements you wish to join. Note that strings must be contained within single or double quotes.
+
+~~~python
+>>> print "The value of my_var is currently: " + my_var
+    The value of my_var is currently: 7
+~~~
+Note that the first appearance of the term "my_var" in the above is not replaced with the number 7 (my_var's value). This is because it is contained within the quotes, and thus python treats it as text rather than a variable. The second appearance of my_var is replaced with the number 7 as it is not within quotes and is thus evaluated as a variable by python.
+
+We can combine the last two steps into a single line:
+~~~python
+>>> print "The value of my_var is currently: " + str(my_var)
+    The value of my_var is currently: 7
+~~~
 
 ## Writing a script
 Now, let's write our first script
