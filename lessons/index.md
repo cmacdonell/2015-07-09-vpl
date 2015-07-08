@@ -30,11 +30,11 @@ raw: raw.github.com/swcarpentry/bc/gh-pages
       processing multiple files using loops,
       putting commonly-used commands in shell scripts,
       and finding things.
-      <br/>
+      <br/><br/>
  
     </dd>
 
-    <dt><a href="python/intro.html">Basic Programming Using Python</a></dt>
+    <dt> Programming Using Python</dt>
     <dd>
       An introduction to Wing IDE, python and basic programming conceptsThree
     examples are built on basic Python concepts.
@@ -43,7 +43,7 @@ raw: raw.github.com/swcarpentry/bc/gh-pages
 	  <li><a href="python/circ-card.html">Cleaning a Circulation Card File</a></li>
 	  <li><a href="python/merge-catalogue.html">Merging Data from 2 Files</a></li>
     </ol>
-    <br/>
+    <br/><br/>
     </dd>
 
     <dt><a href="sql/index.html">SQL for Librarians</a></dt>
