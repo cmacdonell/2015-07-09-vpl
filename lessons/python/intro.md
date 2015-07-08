@@ -51,6 +51,7 @@ Now that we've converted our variable from an integer into a string, we can conc
 Note that the first appearance of the term "my_var" in the above is not replaced with the number 7 (my_var's value). This is because it is contained within the quotes, and thus python treats it as text rather than a variable. The second appearance of my_var is replaced with the number 7 as it is not within quotes and is thus evaluated as a variable by python.
 
 We can combine the last two steps into a single line:
+
 ~~~python
 >>> print "The value of my_var is currently: " + str(my_var)
     The value of my_var is currently: 7
