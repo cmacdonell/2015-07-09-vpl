@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: page
 root: ../..
 title: Merging Catalogue Data from Two Files 
 ---

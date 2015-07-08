@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: page
 root: ../..
 title: Working with Report Data (Excel or Director's Station)
 ---
