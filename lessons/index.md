@@ -16,7 +16,7 @@ raw: raw.github.com/swcarpentry/bc/gh-pages
 
   <dl>
 
-    <dt><a href="shell/tutorial.html">The Unix Shell</a></dt>
+    <dt><a href="shell/index.html">The Unix Shell</a></dt>
     <dd>
       Core material for the Unix shell:
       the organization of files and directories,
