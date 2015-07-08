@@ -43,7 +43,7 @@ raw: raw.github.com/swcarpentry/bc/gh-pages
 	  <li><a href="python/circ-card.html">Cleaning a Circulation Card File</a></li>
 	  <li><a href="python/merge-catalogue.html">Merging Data from 2 Files</a></li>
     </ol>
-    <br/><br/>
+    <br/>
     </dd>
 
     <dt><a href="sql/index.html">SQL for Librarians</a></dt>
