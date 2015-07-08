@@ -6,7 +6,7 @@ title: Working with Report Data (Excel or Director's Station)
 
 ## Opening
 
-Librarians often find themselves working with speadsheets, in particular,
+Librarians often find themselves working with spreadsheets, in particular,
 Excel files.  Excel is the most popular spreadsheet software.  Spreadsheets
 are designed to store and analyze tabular or categorized data.  Librarians
 also use a tool called Director's Station that allows creation of 

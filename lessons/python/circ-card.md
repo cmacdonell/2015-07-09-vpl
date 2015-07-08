@@ -200,7 +200,7 @@ just the lines we want.
     fh = open('library-card.txt')
     all_lines = fh.readlines()
     due_dates = all_lines[3:len(all_lines)]
-    for date in due_dates
+    for date in due_dates:
         print date
     fh.close()
 ~~~
