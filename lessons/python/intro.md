@@ -2,23 +2,55 @@
 layout: page
 root: ../..
 title: Introduction to python
-
 ---
- 
+## Introduction
+In this bootcamp, we are using Wing IDE 101 as our development environment. In Wing, there are two ways that we can write python programs: using the python shell, or by  writing scripts. We'll write our first program using the command line and will then move on to writing our first script. 
 
-## Using the command line
-stuff here
+## Using the Python shell
+Wing IDE provides convenient command line access to python so users can test expressions and execute commands while also working on writing scripts. We will write our first program using it.
+
+Traditionally, the first program one writes when learning a new language is called "hello world" and it is an exercise in displaying the words "hello world" using the programming language. We are going use the print command in python to do this on the python shell. In the python context, print means "display on the screen"
+
+~~~python
+>>> print "Hello, world"
+
+~~~
+
+When you type this in and hit enter, the phrase Hello, world appears immediately below the line of code you typed in. You've executed your first python command!
+
+Now, let's set a variable and perform a calculation on it. Variables are set in python by declaring them. Variables are declared by using an equal sign. The variable name appears on the left side of the equals sign and its value appears on the right side. 
+
+~~~python
+>>> my_var = 5
+~~~
+
+In the above example, the variable is named my_var and it has a value of 5. This variable is stored in memory, so we can now manipulate it. Let's add 2 to my_var. To do so, we reset the value of my_var to be the current value of my_var plus 2:
+
+~~~python
+>>> my_var = my_var + 2
+
+~~~
+
+We do not immediately see a result returned to the screen as we need to explicitly tell python to display a result using print.
+
+~~~ python
+>>> print my_var
+7
+~~~
+
+
 
 ## Writing a script
-
+Now, let's write our first script
   
 ## Writing a temperature calculating script
-Now, let's write a script that converts a temperature from Celsius to Fahrenheit. First, we will create a variable that contains our temperature in Celsius
+Now, let's write a script that converts a temperature from Celsius to Fahrenheit. First, we will create a variable that contains our temperature in Celsius and we will display it to the screen using print.
 
 ~~~ python
 celsius = 15
 print celsius
 ~~~
+The formula to convert from Celsius to Fahrenheit is Celsius x 2 + 30. The multiplication sign in python is *, not x, so we type out the formula as follows:
 
 ~~~ python
 celsius = 15
@@ -26,6 +58,9 @@ celsius = 15
 fahrenheit = (celsius * 2) + 30
 print fahrenheit
 ~~~
+When we run this script, the number 60 is returned. Now, let's update our script so that instead of just returning this number, the phrase "15 degrees Celsius is 60 degrees Fahrenheit" using our variables.
+
+To do so, we need to do something called concatenation. Concatenation means "to join together". In python, we can join (concatenate) variables and text. Let's start with
 
 ~~~ python
 celsius = 15
