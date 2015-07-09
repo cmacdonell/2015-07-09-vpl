@@ -14,10 +14,7 @@ raw: raw.github.com/swcarpentry/bc/gh-pages
     This material is original to Software Carpentry.
   </p>
 
-  <dl>
-    <dt>An additional <a href="shell-intro/index.html">Intro Shell</a> lesson</dt>
-  </dl>
-  <dl>
+ <dl>
 
     <dt><a href="shell/index.html">The Unix Shell</a></dt>
     <dd>
@@ -29,9 +26,9 @@ raw: raw.github.com/swcarpentry/bc/gh-pages
       putting commonly-used commands in shell scripts,
       and finding things.
       <br/><br/>
- 
+      <b>Extra:</b> An additional <a href="shell-intro/index.html">Intro Shell</a> lesson<br/><br/>
     </dd>
-
+ 
     <dt> Programming Using Python</dt>
     <dd>
       An introduction to Wing IDE, python and basic programming concepts (variables, lists, conditionals, loops)
