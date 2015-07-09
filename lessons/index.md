@@ -15,6 +15,9 @@ raw: raw.github.com/swcarpentry/bc/gh-pages
   </p>
 
   <dl>
+    <dt>An additional <a href="shell-intro/index.html">Intro Shell</a> lesson</dt>
+  </dl>
+  <dl>
 
     <dt><a href="shell/index.html">The Unix Shell</a></dt>
     <dd>
